@@ -1,7 +1,9 @@
-concept_abstract_child_library <-sc_node_not_relation;
+concept_abstract_child_library <-sc_node_class;
 =>nrel_main_idtf:
     [Child Library]
     (* <- lang_en;;*);
     [Детская библиотека]
-    (* <- lang_ru;;*);;
+    (* <- lang_ru;;*);
 
+<= nrel_inclusion:
+    concept_abstract_library;;
