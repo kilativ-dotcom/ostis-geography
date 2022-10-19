@@ -9,4 +9,15 @@ nrel_open_time
 	[open at*] 
 	(* 
 	<- lang_en;; 
-	*);;
+	*);
+
+=> nrel_first_domain:{
+    concept_abstract_library;
+    concept_abstract_child_library
+};
+
+=> nrel_second_domain:
+    number;
+
+=> nrel_definitional_domain:
+    number;;
