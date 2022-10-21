@@ -1,4 +1,5 @@
 concept_pharmacy
+<-sc_node_class;
 => nrel_main_idtf:
 	[pharmacy] (* <- lang_en;; *);
 	[аптека] (* <- lang_ru;; *);
@@ -30,5 +31,5 @@ concept_pharmacy
 	    (*
 		    -> rrel_example: "file://images/pharmacy.jpg" (* => nrel_format: format_jpg;; *);;
 	    *);;
-    *);	
-<-sc_node_not_relation;;
+    *);;
+

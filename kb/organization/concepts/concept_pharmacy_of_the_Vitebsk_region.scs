@@ -1,5 +1,5 @@
 concept_pharmacy_of_the_Vitebsk_region
-<-sc_node_not_relation;
+<-sc_node_class;
 <-concept_pharmacy;
 =>nrel_main_idtf:
 	[аптека Витебской области]
@@ -31,8 +31,8 @@ concept_pharmacy_of_the_Vitebsk_region
 	<= nrel_using_constants:
 		{
 			concept_pharmacy;
-			vitebsk_region;
-			belarus
+			concept_vitebsk_region;
+			concept_belarus
 		};;
 	*);;
 	
