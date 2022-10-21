@@ -1,5 +1,5 @@
 concept_phone_number
-<-sc_node_not_relation;
+<-sc_node_class;
 =>nrel_main_idtf:
 	[телефонный номер]
 	(* <- lang_ru;; *);
@@ -27,8 +27,5 @@ concept_phone_number
 			[Phone number - address for switching telephone calls using a system of destination code routing.]
 			(* <- lang_en;; *);;
 		*);;
-	<= nrel_using_constants:
-		{
-			concept_phone_number
-		};;
+	
 	*);;

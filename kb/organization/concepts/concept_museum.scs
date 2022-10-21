@@ -1,10 +1,14 @@
 concept_museum
-<-sc_node_not_relation;
+<-sc_node_class;
 =>nrel_main_idtf:
 	[музей]
 	(* <- lang_ru;; *);
 	[museum]
 	(* <- lang_en;; *);
+
+<= nrel_inclusion:
+    concept_organization;
+
 <- rrel_key_sc_element:
 	...
 	(*
@@ -27,8 +31,5 @@ concept_museum
 			[Museum is an institution that is engaged in collecting, storing and exhibiting of objects of art, scientific collections, objects of historical interests and so on.]
 			(* <- lang_en;; *);;
 		*);;
-	<= nrel_using_constants:
-		{
-			concept_museum
-		};;
+	
 	*);;

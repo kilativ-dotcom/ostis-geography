@@ -1,5 +1,5 @@
 concept_pharmacy_of_the_Brest_region
-<-sc_node_not_relation;
+<-sc_node_class;
 <-concept_pharmacy;
 =>nrel_main_idtf:
 	[аптека Брестской области]
@@ -31,7 +31,7 @@ concept_pharmacy_of_the_Brest_region
 	<= nrel_using_constants:
 		{
 			concept_pharmacy;
-			brest_region;
-			belarus
+			concept_brest_region;
+			concept_belarus
 		};;
 	*);;
