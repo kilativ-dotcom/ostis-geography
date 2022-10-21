@@ -5,6 +5,10 @@ concept_museum
 	(* <- lang_ru;; *);
 	[museum]
 	(* <- lang_en;; *);
+
+<= nrel_inclusion:
+    concept_organization;
+
 <- rrel_key_sc_element:
 	...
 	(*

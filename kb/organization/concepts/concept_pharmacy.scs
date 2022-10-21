@@ -3,6 +3,10 @@ concept_pharmacy
 => nrel_main_idtf:
 	[pharmacy] (* <- lang_en;; *);
 	[аптека] (* <- lang_ru;; *);
+
+<= nrel_inclusion:
+    concept_organization;
+	
 =>nrel_inclusion:concept_pharmacy_chain;	
 <- rrel_key_sc_element: ...
     (*

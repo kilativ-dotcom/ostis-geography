@@ -8,7 +8,8 @@ section_subject_domain_of_organization
 => nrel_private_subject_domain:
                   section_subject_domain_of_museum;
                   section_subject_domain_of_library;
-                  section_subject_domain_of_pharmacies;;
+                  section_subject_domain_of_cinema_and_theater;
+                  section_subject_domain_of_pharmacy;;
 
 
 /* Структура предметной области (классы объектов исследования и

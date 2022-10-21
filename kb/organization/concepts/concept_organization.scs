@@ -6,15 +6,6 @@ concept_organization
 	[organization]
 	(* <- lang_en;; *);
 
-<= nrel_inclusion:
-    concept_museum;
-
-<= nrel_inclusion:
-    concept_pharmacy;
-
-<= nrel_inclusion:
-    concept_library;
-
 <- rrel_key_sc_element:
 	...
 	(*
