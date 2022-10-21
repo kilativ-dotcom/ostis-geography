@@ -2,7 +2,7 @@ gomel_regional_drama_theater <- concept_theatre;
 =>nrel_main_idtf:
     [Gomel regional drama theater]
     (* <- lang_en;; <- name_en;;*);
-    [Гомельский областной драматический театр гу]
+    [Гомельский областной драматический театр]
     (* <- lang_ru;; <- name_ru;;<- name;;*);
 =>nrel_city:
 gomel;

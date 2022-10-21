@@ -1,4 +1,4 @@
-nrel_capacity
+nrel_status
 <-sc_node_norole_relation;
 <-relation;
 <-norole_relation;
@@ -8,19 +8,18 @@ nrel_capacity
 <-antitransitive_relation;
 <-asymmetric_relation;
 =>nrel_main_idtf:
-	[ количество мест* ]
+	[ статус* ]
 	(* <- lang_ru;; *);
-	[ number of seats*]
+	[ status* ]
 	(* <- lang_en;; *);
-=>nrel_first_domain: concept_cinema;
-=>nrel_second_domain: concept_seat;
+=>nrel_first_domain: concept_theater;
+=>nrel_second_domain: concept_status;
 =>nrel_definitional_domain:
 	...
 	(*
 	<= nrel_combination:
 		{
 		concept_cinema;
-		concept_seat
+		concept_status
 		};;
-	*);
-
+	*);;

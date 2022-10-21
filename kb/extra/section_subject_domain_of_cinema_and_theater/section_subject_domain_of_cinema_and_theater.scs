@@ -19,7 +19,7 @@ section_subject_domain_of_cinema_and_theater = [*
 		concept_cinema;
 		concept_seat;
 		concept_theater;
-		closed_status;
+		concept_status;
 	-> rrel_explored_relation:
 		nrel_capacity;
 		nrel_status;;
@@ -40,7 +40,7 @@ rrel_key_sc_element -> (section_subject_domain_of_cinema_and_theater -> subject_
 	=> nrel_key_sc_element_order: (section_subject_domain_of_tokens -> concept_theater)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_tokens -> closed_status)
+	=> nrel_key_sc_element_order: (section_subject_domain_of_tokens -> concept_status)
 (*
 	<- rrel_key_sc_element;;
 	=> nrel_key_sc_element_order: (section_subject_domain_of_tokens -> nrel_capacity)
