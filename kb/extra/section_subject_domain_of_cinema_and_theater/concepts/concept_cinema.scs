@@ -1,5 +1,5 @@
 concept_cinema
-<-sc_node_not_relation;
+<-sc_node_class;
 =>nrel_main_idtf:
 	[кинотеатр]
 	(* <- lang_ru;; *);
@@ -33,3 +33,4 @@ concept_cinema
 		};;
 	*);;
 
+concept_cinema <= nrel_inclusion: concept_theater;;
